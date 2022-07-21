@@ -1,0 +1,34 @@
+div.card{
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100px;
+    height:100px;
+}
+
+div#c1{
+    background-image: url('images/logo_ml.png');
+}
+
+div#c3{
+    background-image: url('');
+}
+
+div#c4{
+    background-image: url('');
+}
+
+div#c5{
+    background-image: url('');
+}
+div#c6{
+    background-image: url('');
+}
+div#c7{
+    background-image: url('');
+}
+div#c8{
+    background-image: url('');
+}
+
+
