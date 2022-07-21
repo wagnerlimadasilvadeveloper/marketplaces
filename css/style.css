@@ -1,3 +1,8 @@
+
+h1{
+    text-align: center;
+}
+
 div.card{
     display: inline-block;
     border: 1px solid black;
