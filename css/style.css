@@ -1,7 +1,39 @@
+*{
+    font-family:"Poppins",sans-serif;
+    
+   
+}
+
+   section{
+    padding: 0 9%
+   }
+
+   .btn{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.8rem 3rem;
+    border-radius: 5rem;
+    background-color: yellow;
+    cursor:pointer;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+    transition: all 0.3 linear;
+   }
+
+
+.btn:hover{
+    transform:scale(1.1);
+}
+
+header{
+    position:fixed;
+    top:0;
+}
 
 h1{
     text-align: center;
 }
+
+
 
 div.card{
     display: inline-block;
@@ -9,6 +41,8 @@ div.card{
     border-radius: 10px;
     width: 100px;
     height:100px;
+  
+    
 }
 
 div#c1{
@@ -16,6 +50,7 @@ div#c1{
     background-size: 80px;
     background-position: center center;
     background-repeat: no-repeat;
+    
 
     
 }

@@ -2,13 +2,20 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Wagner Lima da Silva">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="data:image/png;base64,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" />
     <title>Marketplaces</title>
 </head>
 <body>
-    <h1>Lista de Marketplaces</h1>
+    
+   
+ <h1>
+    Teste
+ </h1>
  
     <div class="card"id="c1">
 
@@ -40,10 +47,23 @@
 
     <div class="card" id="c8">
 
-    </div>
+  
+
+</div>
 
     
+            <form id = "form">
 
+                <input type="text" id = "name" placeholder="Informe seu nome"required/>
+                <input type="email" id = "email" placeholder="Informe seu email"required/>
+                <input type="telefone" id = "whatts" placeholder="Insira seu whattsapp"required/>
+                <input type="text" id = "link_anuncio" placeholder="Insira link de um anúncio Mercado Livre"required/>
+                <label>Ao fazer o cadastro você aceita receber ofertas e novidades sobre Ecommerce e Marketplaces</label>
+                <input type ="submit" class = "btn" value = "Quero me cadastrar"/>
+                
+            </form>
+
+       
 
 </body>
 </html>
